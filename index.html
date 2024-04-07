@@ -1,0 +1,24 @@
+const math = require('math');
+
+function potencia(base, expoente) {
+  return math.pow(base, expoente);
+}
+
+function maiorValor(a, b) {
+  return math.max(a, b);
+}
+
+function menorValor(a, b) {
+  return math.min(a, b);
+}
+
+function raizQuadrada(numero) {
+  return math.sqrt(numero);
+}
+
+module.exports = {
+  potencia,
+  maiorValor,
+  menorValor,
+  raizQuadrada,
+};
